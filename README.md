@@ -6,7 +6,6 @@ Automatic autoload service by interface or annotation.
 
 [![Build Status](https://img.shields.io/travis/minetro/service-autoloader.svg?style=flat-square)](https://travis-ci.org/minetro/service-autoloader)
 [![Code coverage](https://img.shields.io/coveralls/minetro/service-autoloader.svg?style=flat-square)](https://coveralls.io/r/minetro/service-autoloader)
-[![Downloads this Month](https://img.shields.io/packagist/dm/minetro/service-autoloader.svg?style=flat-square)](https://packagist.org/packages/minetro/service-autoloader)
 [![Downloads total](https://img.shields.io/packagist/dt/minetro/service-autoloader.svg?style=flat-square)](https://packagist.org/packages/minetro/service-autoloader)
 [![Latest stable](https://img.shields.io/packagist/v/minetro/service-autoloader.svg?style=flat-square)](https://packagist.org/packages/minetro/service-autoloader)
 [![HHVM Status](https://img.shields.io/hhvm/minetro/service-autoloader.svg?style=flat-square)](http://hhvm.h4cc.de/package/minetro/service-autoloader)

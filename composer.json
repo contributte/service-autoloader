@@ -16,11 +16,9 @@
     "nette/reflection": "~2.3.0|~2.4.0"
   },
   "require-dev": {
-    "nette/di": "dev-master",
+    "nette/di": "~2.4.0",
     "nette/tester": "~1.7.0"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Minetro\\Autoloader\\": "src/"

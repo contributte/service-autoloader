@@ -20,7 +20,7 @@ This package is no longer developed here. In favor of [contributte/di](https://g
 
 ## Install
 
-```sh
+```bash
 composer require minetro/service-autoloader
 ```
 

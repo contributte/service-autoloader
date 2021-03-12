@@ -20,57 +20,57 @@ This package is no longer developed here. In favor of [contributte/di](https://g
 
 ## Install
 
-```sh
+```bash
 composer require minetro/service-autoloader
 ```
 
 ## Usage
 
-```yaml
+```neon
 extensions:
-    autoload: Minetro\Autoloader\DI\ServiceAutoloadExtension
+	autoload: Minetro\Autoloader\DI\ServiceAutoloadExtension
 ```
 
 ### By default
 
 This configuration is enabled by default.
 
-```yaml
+```neon
 autoload:
-    dirs:
-        - %appDir%
+	dirs:
+		- %appDir%
 
-    annotations:
-        - @Service
-        
-    interfaces:
-        - Minetro\Autoloader\AutoloadService
+	annotations:
+		- @Service
 
-    decorator:
-        inject: off
+	interfaces:
+		- Minetro\Autoloader\AutoloadService
+
+	decorator:
+		inject: off
 ```
 
 ### Custom
 
 You can override all configuration settings you want to.
 
-```yaml
+```neon
 autoload:
-    dirs:
-        - %appDir%
-        - %libsDir%
-        - %fooDir%
+	dirs:
+		- %appDir%
+		- %libsDir%
+		- %fooDir%
 
-    annotations:
-        - @Service
-        - @MyCustomService
-        
-    interfaces:
-        - Minetro\Autoloader\AutoloadService
-        - App\Model\MyAutoloadServiceInterface
+	annotations:
+		- @Service
+		- @MyCustomService
 
-    decorator:
-        inject: on / off
+	interfaces:
+		- Minetro\Autoloader\AutoloadService
+		- App\Model\MyAutoloadServiceInterface
+
+	decorator:
+		inject: on / off
 ```
 
 ## Performance

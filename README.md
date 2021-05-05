@@ -70,6 +70,12 @@ autoload:
 		inject: on / off
 ```
 
+## Performance
+
+Service loading is triggered only once at dependency injection container compile-time. You should be pretty fast,
+almost as [official registering presenter as services](https://api.nette.org/2.4/source-Bridges.ApplicationDI.ApplicationExtension.php.html#121-160).
+
+
 ## Development
 
 This package was maintain by these authors.

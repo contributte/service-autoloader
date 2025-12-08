@@ -15,7 +15,7 @@
 | :warning: | This project is no longer being maintained. Please use [contributte/di](https://github.com/contributte/di).
 |---|---|
 
-| Composer | [`minetro/service-autoloader`](https://packagist.org/minetro/service-autoloader) |
+| Composer | [`minetro/service-autoloader`](https://packagist.org/packages/minetro/service-autoloader) |
 |---| --- |
 | Version | ![](https://badgen.net/packagist/v/minetro/service-autoloader) |
 | PHP | ![](https://badgen.net/packagist/php/minetro/service-autoloader) |
